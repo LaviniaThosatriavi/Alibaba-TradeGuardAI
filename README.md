@@ -1,6 +1,6 @@
 # TradeGuard AI - A LightGBM-based Merchant Credit Rating System
 
-With the aim of enhancing Alibaba International's Trade Assurance system, TradeGuard AI utilizes a LightGBM regression model to assess and predict merchant credit ratings with high accuracy. To ensure seamless integration with Alibaba's existing technology stack, we generate a PMML (Predictive Model Markup Language) file and produced a Java evaluator. 
+With the aim of enhancing Alibaba International's Trade Assurance system, TradeGuard AI utilizes a LightGBM regression model to assess and predict merchant credit ratings with high accuracy. To ensure seamless integration with Alibaba's existing technology stack, we generate a PMML (Predictive Model Markup Language) file and provide a Java evaluator. 
 
 
 ## Workflow
