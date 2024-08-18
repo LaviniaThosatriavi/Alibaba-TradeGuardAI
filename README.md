@@ -20,7 +20,7 @@ Nexus Solutions has developed TradeGuard AI to automate seller credit standings 
    - This PMML file can be seamlessly integrated into Java applications, allowing Alibaba International to deploy the model within their existing technology stack.
 
 4. **Java Integration**:
-   - The PMML model is loaded and evaluated using Java-based libraries.
+   - The PMML model is loaded and evaluated using the PMML Java library, with dependencies managed by Maven on the Project Object Model XML file, storing the configuration details necessary to build the Maven project
    - The model is then used to predict new data points and integrate seamlessly with Alibaba’s data processing pipelines.
 
 
@@ -28,7 +28,13 @@ Nexus Solutions has developed TradeGuard AI to automate seller credit standings 
 
 Seller data and transaction volume are extracted from Alibaba’s databases and OneTouch’s export services using various technologies:
 - JDBC, ODBC, RESTful APIs
-- Apache Kafka for real-time data streaming'
+- Apache Kafka for real-time data streaming
+
+## Execution Instructions
+Provided the .java, pom.xml, credit-ratings.pmml and other necessary files, use the following commands on the Java command line of any IDE
+1. ```mvn clean install```
+2. ```mvn compile```
+3. ```mvn exec:java -Dexec.mainClass=JPMMLEvaluator -Dexec.args=args```
 
   
 ## Project Background
