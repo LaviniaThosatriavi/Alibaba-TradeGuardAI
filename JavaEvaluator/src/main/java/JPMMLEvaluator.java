@@ -26,21 +26,6 @@ public class JPMMLEvaluator {
         // Printing secondary result (eg. probability(y), decision(y)) fields
         List<OutputField> outputFields = evaluator.getOutputFields();
         System.out.println("Output fields: " + outputFields);
-        //while(true){
-            // Reading data from the data source
-            //Map<String, ?> arguments = readRecord();
-            //if(arguments == null){
-                //break;
-            //}
-
-            // Evaluating the model
-            //Map<String, ?> results = evaluator.evaluate(arguments);
-
-            // Decoupling results from the JPMML-Evaluator runtime environment
-            //results = EvaluatorUtil.decodeAll(results);
-
-            // Writing a record to the data sink
-            //writeRecord(results);
-        //}      
+           
     }
 }
